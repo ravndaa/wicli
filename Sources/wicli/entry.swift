@@ -7,7 +7,7 @@ import os
 struct wicli: ParsableCommand {
     static var configuration = CommandConfiguration(
         abstract:"wifi tool",
-        version: "0.0.3",
+        version: "VERSION",
         subcommands: [Setfirst.self, Power.self],
         defaultSubcommand: Setfirst.self
         )
